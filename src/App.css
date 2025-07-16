@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #573232;
+}
+
+.App {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 16px;
+  background-color: white;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.todo-list-wrapper {
+  flex: 1;
+  overflow-y: auto; /* 스크롤 생기게 */
+  padding-right: 6px; /* 스크롤바 너비 감안 */
+  height: 500px;
+}
+
+
+
+.todo-editor {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 10px 0;
+}
+.todo-editor-title{
+  color:black;
+}
+
+.todo-editor input {
+  padding: 10px;
+  width: 240px;
+  border: 1px solid #ccc;
+  background-color: #b3b3b3;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.todo-editor button {
+  padding: 10px 16px;
+  background-color: #4e8cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.todo-editor button:hover {
+  background-color: #357ae8;
+}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #573232;
+}
+
+.App{
+  max-width: 500px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 16px;
+  background-color: white;
+}
+
+
+.todo-editor {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 16px 0;
+}
+.todo-editor-title{
+  color:black;
+}
+
+.todo-editor input {
+  padding: 10px;
+  width: 240px;
+  border: 1px solid #ccc;
+  background-color: #b3b3b3;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.todo-editor button {
+  padding: 10px 16px;
+  background-color: #4e8cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.todo-editor button:hover {
+  background-color: #357ae8;
+}
+
+
